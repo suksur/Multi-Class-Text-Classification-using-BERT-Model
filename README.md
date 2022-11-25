@@ -5,18 +5,18 @@ BERT stands for Bidirectional Encoder Representations and is a pre-trained model
 Google known for producing state-of-the-art results in a wide variety of NLP tasks.
 
 
-## Aim
+#### Aim
 To perform multiclass text classification on the dataset using the pre-trained BERT
 model.
-## Data Description
+#### Data Description
 The dataset contains more than two million customer complaints about consumer
 financial products. Amongst the various available columns, we have a column that
 contains the actual text of the complaint and one column containing the product for
 which the customer is raising the complaint.
-## Tech Stack
+#### Tech Stack
 ➔ Language: Python
 ➔ Libraries: pandas, torch, nltk, numpy, pickle, re, tqdm, sklearn, transformers
-## Approach
+#### Approach
 1.Installing the necessary packages through the pip command
 2.Importing the required libraries
 3.Defining configuration file paths
